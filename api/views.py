@@ -11,7 +11,7 @@ def api_overview(request):
     """
     api_urls = {
         'Get All Students and create': '/students/',
-        'detail delete update student': '/students/<id>/',
+        'student details delete or update ': '/students/<id>/',
     }
     return Response(api_urls)
 
