@@ -11,3 +11,4 @@ urlpatterns = [
     path('students/<int:id>/', student_detail, name='student_detail'),
 
 ]
+#hello
